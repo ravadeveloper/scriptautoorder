@@ -1,0 +1,21 @@
+{
+  "name": "artanbot",
+  "version": "1.0.0",
+  "description": "Bot order akun Telegram - ArtanBot",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "qrcode": "^1.5.3",
+    "telegraf": "^4.16.3",
+    "telegram": "^2.26.22"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
